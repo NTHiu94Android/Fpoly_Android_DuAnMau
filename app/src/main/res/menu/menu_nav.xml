@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Manager">
+        <menu>
+            <item
+                android:id="@+id/menuHome"
+                android:icon="@drawable/ic_home24"
+                android:title="Home"/>
+            <item
+                android:id="@+id/menuLoanslipManager"
+                android:icon="@drawable/ic_loanslip24"
+                android:title="Loanslip manager"/>
+            <item
+                android:id="@+id/menuKindOfBook"
+                android:icon="@drawable/ic_kobook24"
+                android:title="Kind of book manager"/>
+            <item
+                android:id="@+id/menuBookManager"
+                android:icon="@drawable/ic_book24"
+                android:title="Book manager"/>
+            <item
+                android:id="@+id/menuMemberManager"
+                android:icon="@drawable/ic_membermanagement24"
+                android:title="Member manager"/>
+        </menu>
+    </item>
+    <item
+        android:title="Statistical">
+        <menu>
+            <item
+                android:id="@+id/menuTop10Book"
+                android:icon="@drawable/ic_top24"
+                android:title="Top 10 book"/>
+            <item
+                android:id="@+id/menuRevenue"
+                android:icon="@drawable/ic_revenue24"
+                android:title="Revenue"/>
+        </menu>
+    </item>
+    <item
+        android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/menuAddAccount"
+                android:visible="true"
+                android:icon="@drawable/ic_adduser24"
+                android:title="Create account"/>
+            <item
+                android:id="@+id/menuChangePass"
+                android:icon="@drawable/ic_padlock24"
+                android:title="Change password"/>
+            <item
+                android:id="@+id/menuLogout"
+                android:icon="@drawable/ic_logout24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
